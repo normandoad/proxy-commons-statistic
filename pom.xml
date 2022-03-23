@@ -6,8 +6,15 @@
 	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>proxy-commons-statistic</name>
+	<scm>
+		<connection>scm:git:ssh://github.com/normandoad/proxy-commons-statistic.git</connection>
+		<developerConnection>scm:git:ssh://github.com/normandoadproxy-commons-statistic.git</developerConnection>
+	</scm>
 	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>8</java.version>
+		<isExecutable>true</isExecutable>
 	</properties>
 
 	<dependencies>
